@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:padding="16dp"> <!-- Light Gray Background -->
+
+    <!-- New Meal Button -->
+
+    <!-- Saved Meals Button -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="364dp"
+        android:layout_height="247dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo_transparent" />
+
+    <Button
+        android:id="@+id/buttonNewMeal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="12dp"
+        android:background="#4CAF50"
+        android:backgroundTint="#6495ED"
+        android:padding="12dp"
+        android:text="New Meal"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonSavedMeals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonNewMeal"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="34dp"
+        android:background="#2196F3"
+        android:padding="12dp"
+        android:text="Saved Meals"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp" />
+
+</RelativeLayout>

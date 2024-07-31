@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+
+    <EditText
+        android:id="@+id/editTextCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Calories" />
+
+    <EditText
+        android:id="@+id/editTextPreferences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preferences"
+        android:layout_below="@id/editTextCalories"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPreferences"
+        android:layout_marginTop="14dp"
+        android:text="Generate" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonGenerate"
+        android:layout_marginTop="16dp"
+        android:text="Save" />
+
+    <Button
+        android:id="@+id/buttonRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSave"
+        android:layout_marginTop="16dp"
+        android:text="Refresh" />
+
+    <TextView
+        android:id="@+id/textViewMealTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonRefresh"
+        android:layout_marginTop="16dp"
+        android:text="Meal Title"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewMealTitle"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/textViewMealRecipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meal Recipe" />
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "326534639427",
+    "project_id": "smartestbite",
+    "storage_bucket": "smartestbite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326534639427:android:08c4c4e0ea911fbd8a09f6",
+        "android_client_info": {
+          "package_name": "com.example.smartestbite"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkkUFi6QSwCb6gZ25rrTB2YnP1KjqcHsk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
